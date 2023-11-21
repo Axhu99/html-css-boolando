@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    margin-top: 100px;
+}
+
 /* ! Utilis */
 
 .flex{
@@ -53,6 +57,11 @@
 .bgc-header{
     background-color: #D2451E;
     padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 
 .nav{
