@@ -26,6 +26,11 @@
     font-size: 16px;
 }
 
+.nolist{
+    list-style: none;
+    gap: 12px;
+}
+
 /* ? container */
 
 .container{
@@ -117,14 +122,13 @@
 }
 
 .info{
-    height: 50px;
     justify-content: space-between;
 }
 
 .social-info{
-    flex-basis: 20%;
+    color: #fff;
 }
 
 .social-network{
-    flex-basis: 20%;
+    color: #fff;
 }
