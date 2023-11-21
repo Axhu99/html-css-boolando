@@ -25,6 +25,8 @@
 .container{
     max-width: 1080px;
     margin: 0 auto;
+
+    background-color: aqua;
 }
 
 /* ! Generic */
@@ -39,6 +41,7 @@
 }
 
 .nav{
+    flex-basis: 100%;
     justify-content: space-between;
 }
 
@@ -53,4 +56,10 @@
 
 .recap{
     flex-basis: 10%;
+}
+
+/* Main */
+
+.card{
+    height: 500px;
 }
