@@ -58,6 +58,9 @@
 
 .recap{
     flex-basis: 10%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
 }
 
 /* Main */
