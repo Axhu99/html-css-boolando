@@ -116,7 +116,7 @@
 }
 
 .likeit{
-    color: #000;
+    color:  black;
     position: absolute;
     top: 20px;
     right: 0;
@@ -171,4 +171,34 @@
 
 .social-network{
     color: #fff;
+}
+
+/* ! hover */
+
+.likeit:hover::after{
+    color: #D2451E;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+
+    font-size: 30px;
+    padding: 20px;
+    background-color: lightslategray;
+
+    content:'\2661'
+}
+
+.modello{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+.card-profile:hover .card-img{
+    opacity: 1;
+}
+.card-profile:hover .modello{
+    opacity: 1;
 }
