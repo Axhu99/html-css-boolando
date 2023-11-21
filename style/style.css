@@ -60,7 +60,32 @@
 
 /* Main */
 
+.bgc-main{
+    background-color: #fff;
+    padding: 20px;
+}
+
 .card{
     height: 500px;
-    margin: 20px auto;
+}
+
+/* footer */
+
+.bgc-footer{
+    background-color: #000;
+    border-bottom: 1px solid #fff;
+    padding: 20px;
+}
+
+.info{
+    height: 50px;
+    justify-content: space-between;
+}
+
+.social-info{
+    flex-basis: 20%;
+}
+
+.social-network{
+    flex-basis: 20%;
 }
