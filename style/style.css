@@ -70,8 +70,42 @@
     padding: 20px;
 }
 
-.card{
-    height: 500px;
+.column{
+    flex-wrap: wrap;
+    margin: 0 -5px;   
+}
+
+.card{  
+    flex-basis: calc(100% / 3);
+    padding: 5px;
+}
+
+.card-img{
+    max-width: 100%;
+}
+
+.name-brand{
+    color: #66676E;
+    font-size: 14px;
+}
+
+.name-item{
+    color: black;
+    text-transform: uppercase;
+}
+
+.price{
+    font-size: 14px;
+    gap: 5px;
+}
+
+.cost{
+    color: red;    
+}
+
+.cost-discount{
+    color: #66676E;
+    text-decoration: line-through;
 }
 
 /* footer */
